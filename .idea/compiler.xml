@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Expense-Reimbursement-System" />
         <module name="revature-project-1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Expense-Reimbursement-System" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
