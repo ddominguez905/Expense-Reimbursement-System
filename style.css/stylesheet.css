@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkcyan;
+    border: ridge;
+    margin: top 20px;
+}
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+    
+        
+.form-feild {
+    width: 200px;
+    height: 30px;
+}
+
