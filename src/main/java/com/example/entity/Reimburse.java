@@ -4,7 +4,7 @@ import java.time.*;
 
 public class Reimburse {
     private int id;
-    private double amount;
+    private double expenseAmount;
     private ReimbursementStatus status;
     private LocalDate localDate;
 

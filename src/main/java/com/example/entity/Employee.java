@@ -6,7 +6,7 @@ import java.util.Objects;
 public class Employee implements Comparable<Employee> {
     String firstName;
     String lastName;
-    private int id;
+    private int employeeId;
     private EmployeeRole role;
 
     public Employee(String firstName, String lastName, int id, EmployeeRole role) {
