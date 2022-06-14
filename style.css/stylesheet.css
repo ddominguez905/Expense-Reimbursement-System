@@ -1,10 +1,11 @@
 * {
     box-sizing: border-box;
 }
+header {
+    
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: darkcyan;
-    border: ridge;
     margin: top 20px;
 }
 /* Style the header */
