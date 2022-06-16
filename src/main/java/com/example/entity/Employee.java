@@ -12,7 +12,7 @@ public class Employee implements Comparable<Employee> {
     public Employee(String firstName, String lastName, int id, EmployeeRole role) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.employeeId = id;
+        this.id = id;
         this.role = role;
     }
 
@@ -56,12 +56,12 @@ public class Employee implements Comparable<Employee> {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Employee employee = (Employee) o;
-        return employeeId == employee.id && firstName.equals(employee.firstName) && lastName.equals(employee.lastName) && role == employee.role;
+        return id == employee.id && firstName.equals(employee.firstName) && lastName.equals(employee.lastName) && role == employee.role;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(employeeId, employeeRole);
+        return Objects.hash(id, role);
     }
 
     @Override
