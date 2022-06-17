@@ -1,1 +1,1 @@
-SELECT * FROM employee
+INSERT INTO employee("employeeemail")

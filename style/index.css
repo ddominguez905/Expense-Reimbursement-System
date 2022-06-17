@@ -68,9 +68,9 @@ button.signin-button{
     width: 100%;
     padding: 5px x 5x;
     border: none;
-    font-size: 25px;
+    font-size: 32px;
     border-radius: 30px;
     background-color: rgb(243, 106, 26);
     color:white;
-    margin-top: 25px;
+    margin-top: 15px;
 }
